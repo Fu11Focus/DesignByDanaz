@@ -1,0 +1,288 @@
+body {
+  background: #d9d9d9;
+}
+header,
+main,
+footer {
+  background: #fff;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  color: #333;
+  width: 1440px;
+  padding: 40px 120px;
+  margin: auto;
+}
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+header img {
+  width: 126px;
+  height: 54px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+}
+nav ul li {
+  margin-left: 75px;
+  white-space: nowrap;
+}
+
+nav ul li a {
+  color: #333;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+}
+nav ul li:last-child a {
+  box-sizing: border-box;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 15px 30px;
+  background: #2c3878;
+}
+
+/* First block */
+.mainInfo {
+  width: 100%;
+  position: relative;
+  padding-bottom: 160px;
+}
+.mainInfo h1 {
+  display: block;
+  width: 680px;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 140%;
+}
+.line {
+  content: none;
+  position: absolute;
+  left: 510px;
+  height: 0px;
+  right: 0;
+  top: 40px;
+  border-top: 2px solid #000000;
+}
+.mainInfo img {
+  margin-top: 45px;
+}
+.showing {
+  background: #2c3878;
+  width: 250px;
+  height: 525px;
+  padding: 40px 50px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  z-index: 10;
+  top: 130px;
+  right: 140px;
+}
+.showing div {
+  margin-bottom: 60px;
+}
+.showing div:last-child {
+  margin-bottom: 0;
+  padding: 0;
+}
+.showing em {
+  font-style: normal;
+  font-size: 52px;
+}
+.showing p {
+  white-space: nowrap;
+  font-size: 16px;
+  margin-top: 0;
+}
+.reserved {
+  position: absolute;
+  top: 200px;
+  right: -60px;
+  margin: 0;
+  transform: rotate(-90deg);
+}
+/* about */
+.about {
+  position: relative;
+  /* overflow: hidden; */
+}
+.paragraphName {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  float: left;
+}
+
+.paragraphLine {
+  float: right;
+  margin-right: 600px;
+  margin-top: 10px;
+  margin-bottom: 45px;
+  content: none;
+  border-top: 2px solid #000000;
+  width: 530px;
+}
+.about p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 170%;
+}
+.learnMoreBlock img {
+  margin-top: 60px;
+  margin-right: 90px;
+  float: left;
+}
+.learnMoreBlock p {
+  float: right;
+  line-height: 160%;
+  font-weight: 400;
+  font-size: 18px;
+  color: #9c9c9c;
+  width: 225px;
+  margin-top: 255px;
+  margin-bottom: 65px;
+}
+.learnMoreBlock a {
+  text-decoration: none;
+  padding: 15px 30px;
+  background: #2c3878;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  clear: both;
+}
+.autor {
+  background: #fff;
+  position: absolute;
+  right: 120px;
+  top: 280px;
+  width: 275px;
+  height: 90px;
+  filter: drop-shadow(10px 10px 40px rgba(0, 0, 0, 0.05));
+}
+.autor img {
+  float: left;
+  margin: 17px 20px;
+}
+.autor h3 {
+  margin-top: 17px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.autor span {
+  font-weight: 400;
+  font-size: 18px;
+  color: #9c9c9c;
+}
+.service {
+  position: relative;
+  margin-top: 190px;
+  margin-bottom: 160px;
+}
+.service span {
+  font-weight: 600;
+  font-size: 36px;
+}
+.service > img {
+  position: static;
+  margin-right: 0;
+  margin-left: 124px;
+  margin-top: 50px;
+  z-index: -1;
+}
+.service p {
+  margin-top: 25px;
+  color: #9c9c9c;
+  font-weight: 400;
+  font-size: 18px;
+  width: 470px;
+  line-height: 160%;
+  margin-bottom: 40px;
+}
+.service > .list {
+  position: absolute;
+  background: #fff;
+  width: 885px;
+  overflow: hidden;
+}
+.list > ol {
+  list-style-type: decimal-leading-zero;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+.service > .list > ol > li {
+  margin-bottom: 35px;
+  padding-left: 40px;
+}
+.service > .list > ol > li > span {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+}
+.list > ol > li > span {
+  float: left;
+}
+.list > ol > li > img {
+  float: right;
+}
+
+.product > .paragraphLine {
+  margin-right: 580px;
+}
+.product > span {
+  margin-top: 35px;
+  margin-right: 390px;
+  width: 340px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 170%;
+  float: left;
+  margin-bottom: 75px;
+}
+.product > p {
+  width: 470px;
+  margin-top: 35px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  float: right;
+  color: #9c9c9c;
+}
+.product > .list {
+  clear: both;
+}
+.product > .list > ol > p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  width: 470px;
+  margin: 25px 90px;
+}
+.product > .list > ol > li {
+  padding-left: 90px;
+}
+.product > .list > ol > li > span {
+  float: left;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 140%;
+}
+.product > .list > ol > li > img {
+  float: right;
+}
