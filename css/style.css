@@ -31,7 +31,9 @@ header img {
   margin: 0;
   padding: 0;
 }
-
+.active {
+  font-weight: bold;
+}
 nav ul {
   list-style-type: none;
   display: flex;
@@ -345,6 +347,7 @@ nav ul li:last-child a {
   height: 200px;
   background: #2c3878;
   padding: 40px 120px;
+  margin-top: 0;
   margin-bottom: 80px;
   overflow: hidden;
 }
