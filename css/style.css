@@ -9,8 +9,13 @@ footer {
   font-style: normal;
   color: #333;
   width: 1440px;
-  padding: 40px 120px;
+  padding: 40px 120px 50px;
   margin: auto;
+}
+footer {
+  padding: 0px;
+  padding-top: 120px;
+  overflow: hidden;
 }
 /* Header */
 header {
@@ -245,8 +250,9 @@ nav ul li:last-child a {
 .product > .paragraphLine {
   margin-right: 580px;
 }
+.material > span,
 .product > span {
-  margin-top: 35px;
+  margin-top: 20px;
   margin-right: 390px;
   width: 340px;
   font-weight: 600;
@@ -285,4 +291,140 @@ nav ul li:last-child a {
 }
 .product > .list > ol > li > img {
   float: right;
+}
+.material > .paragraphLine {
+  margin-right: 580px;
+}
+.material > span {
+  margin-bottom: 25px;
+}
+.material > p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #9c9c9c;
+  width: 500px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  clear: both;
+}
+.contactBlock > a,
+.material > a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  padding: 15px 30px;
+  border: 1px solid #333;
+  text-decoration: none;
+  color: #333;
+  background: #fff;
+}
+.imgsMaterial {
+  position: relative;
+  float: right;
+  width: 623px;
+  height: 490px;
+  margin-top: -420px;
+}
+.imgsMaterial > img:nth-child(1) {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.imgsMaterial > img:nth-child(3) {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+}
+.imgsMaterial > img:nth-child(2) {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.contactUs {
+  height: 200px;
+  background: #2c3878;
+  padding: 40px 120px;
+  margin-bottom: 80px;
+  overflow: hidden;
+}
+.contactUs > p {
+  float: left;
+  width: 615px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 170%;
+  color: #ffffff;
+}
+.contactBlock {
+  float: right;
+  width: 430px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #d9d9d9;
+}
+.contactBlock > p {
+  margin-bottom: 20px;
+}
+.slogan {
+  float: left;
+  padding-top: 80px;
+  padding-left: 120px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 170%;
+  width: 480px;
+  margin-bottom: 85px;
+}
+.mailandmedia {
+  float: right;
+}
+
+.giveEmail,
+.socialMedia {
+  margin-right: 120px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+}
+.giveEmail {
+  position: relative;
+  margin-bottom: 40px;
+  margin-top: 85px;
+}
+.giveEmail > p > span {
+  font-size: 30px;
+}
+.giveEmail > input {
+  border: none;
+  border-bottom: 1px solid #000;
+  padding: 15px;
+  width: 100%;
+  display: block;
+}
+.giveEmail > button {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  border: none;
+  background: rgba(255, 255, 255, 0.0);
+}
+.giveEmail > input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #d9d9d9;
+}relative
+.socialMedia {
+  font-size: 16px;
+  margin-top: 80px;
+}
+.socialMedia > a {
+  margin-top: 15px;
+  margin-right: 35px;
+}
+.socialMedia > a:last-child {
+  margin-right: 0;
 }
