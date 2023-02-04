@@ -1,0 +1,86 @@
+.mainInfo > h1,
+.mainInfo > p {
+  text-align: center;
+  width: 520px;
+  margin: 20px auto;
+}
+.mainInfo {
+  padding-bottom: 110px;
+}
+.designer > .paragraphLine {
+  margin-right: 580px;
+}
+.designer > span {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 170%;
+  margin-bottom: 25px;
+}
+.designer > p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  width: 470px;
+  color: #9c9c9c;
+  margin-bottom: 95px;
+}
+.designers-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.designers-list-item {
+	position: relative;
+  width: 280px;
+  height: 385px;
+  padding: 12px;
+  margin-bottom: 25px;
+  background: #2c3878;
+}
+.designers-list-item > img {
+	position: absolute;
+  z-index: 1;
+	bottom: 0;
+	left: 0;
+}
+.designer-list-item-desc {
+  width: 260px;
+  height: 95px;
+	position: relative;
+	z-index: 2; 
+  background: #fff;
+  margin: 270px auto;
+  padding: 20px 15px;
+}
+.designer-list-item-desc > span {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+}
+.designer-list-item-desc > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #9c9c9c;
+}
+.service {
+  margin-top: 110px;
+	margin-bottom: 0px;
+}
+.skills {
+  margin-top: 40px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.skill {
+  width: 390px;
+  padding: 20px 30px;
+	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+}
+.skill > p {
+  width: 100%;
+}
+footer {
+	padding-top: 80px;
+}
