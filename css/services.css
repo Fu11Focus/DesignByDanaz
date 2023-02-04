@@ -1,0 +1,56 @@
+main {
+  overflow: hidden;
+	padding-bottom: 0;
+}
+footer {
+	margin-top: 0px;
+	padding-top: 75px;
+}
+.mainInfo {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 110px;
+}
+.mainInfo > h2 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 140%;
+  margin-bottom: 35px;
+}
+.mainInfo > p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  width: 520px;
+  margin: 0 auto;
+}
+.achievement > .paragraphLine {
+  margin-right: 550px;
+  margin-bottom: 40px;
+}
+
+.achievementItem > img {
+  float: left;
+  margin-bottom: 40px;
+}
+.achievementItemDescription {
+  float: right;
+  width: 335px;
+  margin-top: 120px;
+}
+.achievementItemDescription > span {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+}
+.achievementItemDescription > p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #9c9c9c;
+  padding-top: 20px;
+}
+.product {
+  clear: both;
+  margin-bottom: 40px;
+}
