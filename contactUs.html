@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/css/reset.css" />
     <link href="css/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/css/contactUs.css">
+    <link rel="stylesheet" href="/css/contactUs.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -35,55 +35,94 @@
     <main>
       <div class="mainInfo">
         <h1>Contact Us</h1>
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        <p>
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout.
+        </p>
         <form action="submit">
-          <label for="firstName" id="labelFirstName">First Name</label >
-          <input type="text" name="firstName" id="firstName" placeholder="First Name">
-          <label for="lastName" id="labelLastName">Last Name</label>
-          <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+          <label for="firstName" id="labelFirstName">First Name</label>
+          <label for="lastName" id="labelLastName">Last Name</label><br />
+          <input
+            type="text"
+            name="firstName"
+            id="firstName"
+            placeholder="First Name"
+          />
+          <input
+            type="text"
+            name="lastName"
+            id="lastName"
+            placeholder="Last Name"
+          /><br />
           <label for="email">Email</label>
-          <input type="text" name="email" id="email" placeholder="Email">
+          <input type="text" name="email" id="email" placeholder="Email" />
           <label for="phone">Phone Number</label>
-          <input type="text" id="phone" name="phone" placeholder="Phone Number">
+          <input
+            type="text"
+            id="phone"
+            name="phone"
+            placeholder="            Phone Number"
+          />
           <select name="phoneContry" id="phoneContry">
             <option value="US">US</option>
             <option value="UA">UA</option>
           </select>
           <label for="message">Message</label>
-          <input type="text" name="message" id="message" placeholder="Your Message">
-          <button type="submit">Send Message</button>
+          <input
+            type="text"
+            name="message"
+            id="message"
+            placeholder="Your Message"
+          />
+          <button type="submit" class="btnFormSubmit">Send Message</button>
         </form>
       </div>
-     <div class="location">
-      <h2 class="paragraphName">Location</h2>
-      <div class="paragraphLine"></div>
-      <div class="location-contact">
-      <h3>Visit Our Stores</h3>
-      <p>Find us a these locations.</p>
-      <span>Email</span>
-      <p>dananz@gmail.com</p>
-      <span>Phone</span>
-      <p>+62 815 002 1000</p>
+      <div class="location">
+        <h2 class="paragraphName">Location</h2>
+        <div class="paragraphLine"></div>
+        <div class="location-contact">
+          <h3>Visit Our Stores</h3>
+          <p>Find us a these locations.</p>
+          <span>Email</span>
+          <p>dananz@gmail.com</p>
+          <span>Phone</span>
+          <p>+62 815 002 1000</p>
+        </div>
+        <div class="location-city">
+          <div class="location-city-item">
+            <span>Jakarta</span>
+            <p>
+              Customize your interior design into a dream place with the best
+              designers and quality furniture. We try our best to fulfill your
+              expectations.
+            </p>
+          </div>
+          <div class="location-city-item">
+            <span>Surakarta</span>
+            <p>
+              Customize your interior design into a dream place with the best
+              designers and quality furniture. We try our best to fulfill your
+              expectations.
+            </p>
+          </div>
+          <div class="location-city-item">
+            <span>Yogyakarta</span>
+            <p>
+              Customize your interior design into a dream place with the best
+              designers and quality furniture. We try our best to fulfill your
+              expectations.
+            </p>
+          </div>
+          <div class="location-city-item">
+            <span>Bandung</span>
+            <p>
+              Customize your interior design into a dream place with the best
+              designers and quality furniture. We try our best to fulfill your
+              expectations.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="location-city">
-        <div class="location-city-item">
-          <span>Jakarta</span>
-          <p>Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.</p>
-        </div>
-        <div class="location-city-item">
-          <span>Surakarta</span>
-          <p>Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.</p>
-        </div>
-        <div class="location-city-item">
-          <span>Yogyakarta</span>
-          <p>Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.</p>
-        </div>
-        <div class="location-city-item">
-          <span>Bandung</span>
-          <p>Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.</p>
-        </div>
-      </div>
-    </div>
     </main>
     <footer>
       <div class="contactUs">
@@ -106,10 +145,10 @@
           <input
             type="email"
             name="email"
-            id="email"
+            id="footerEmail"
             placeholder="Email Address"
           />
-          <button type="submit">
+          <button type="submit" class="btnEmailFooter">
             <img src="/imgs/half-arrow-right.png" alt="submit" />
           </button>
         </form>
